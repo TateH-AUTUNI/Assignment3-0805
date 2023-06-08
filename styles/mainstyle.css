@@ -16,34 +16,15 @@
 .background {
   width: 100%;
   height: 4rem;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))， url(bg.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
   background-size: cover;
   background-position: center;
 }
 
-ul.navbar {
-  position: fixed;
-  top: 5rem;
-  width: 13rem;
-  height: 100%;
-  background-color: rgb(20, 20, 20);
-  border-top-right-radius: 20px;
-}
+
 .main{
   padding-left: 14rem;
-  border: 1px solid black;
-}
-
-ul.navbar li {
-  background: white;
-  margin: .7rem;
-  padding: 5%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-ul.navbar a {
-  text-decoration: none 
+  padding-top: 3rem;
 }
 
 a:link {
@@ -63,4 +44,34 @@ a:visited {
   background-color: #c3e5ff;
   color:#091016;
   text-align: center;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -155px;
+  width: 200px;
+  height: 100vh;
+  background-color: #f2f2f2;
+  transition: .3s ease-in-out;
+
+  margin-top: 4rem;
+}
+.sidebar:hover{
+  left: 0px;
+}
+
+.sidebar-menu {
+  margin: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar-menu li {
+  padding: 10px;
+}
+
+.sidebar-menu li a {
+  text-decoration: none;
+  color: #333;
 }
