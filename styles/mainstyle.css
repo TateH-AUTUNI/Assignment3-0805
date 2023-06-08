@@ -7,6 +7,7 @@
 .header {
   position: absolute;
   width: 100%;
+  height: 2rem;
   background-color: #dbf0ff;
   text-align: center;
   padding: 1rem;
@@ -14,21 +15,22 @@
 
 .background {
   width: 100%;
-  height: 100vh;
+  height: 4rem;
   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))， url(bg.jpg);
   background-size: cover;
   background-position: center;
 }
+
 ul.navbar {
-  position: absolute;
+  position: fixed;
   top: 5rem;
   width: 13rem;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(20, 20, 20);
   border-top-right-radius: 20px;
 }
 .main{
-  padding-left: 22%;
+  padding-left: 14rem;
   border: 1px solid black;
 }
 
@@ -45,7 +47,7 @@ ul.navbar a {
 }
 
 a:link {
-  color: blue 
+  color: rgb(13, 13, 35) 
 }
 
 a:visited {
@@ -55,9 +57,9 @@ a:visited {
 
 .footer {
   position: fixed;
-  left: 20%;
+  left: 13rem;
   bottom: 0;
-  width: 80%;
+  width: calc(100% - 13rem);
   background-color: #c3e5ff;
   color:#091016;
   text-align: center;
