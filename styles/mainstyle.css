@@ -4,6 +4,12 @@
   padding: 0;
   font-family: sans-serif;
 }
+
+body{
+  background-image: url("/images/296685.png");
+  background-size: cover;
+  color:#fff;
+}
 .header {
   position: absolute;
   width: 100%;
@@ -11,6 +17,7 @@
   background-color: #dbf0ff;
   text-align: center;
   padding: 1rem;
+  color: #091016;
 }
 
 .background {
