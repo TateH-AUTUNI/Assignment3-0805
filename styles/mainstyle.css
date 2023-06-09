@@ -45,8 +45,8 @@ a:link {
   color: rgb(13, 13, 35) 
 }
 
-a:visited {
-  color: purple 
+.main a:link {
+  color: #c3e5ff;
 }
 
 
