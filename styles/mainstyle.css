@@ -37,6 +37,10 @@ body{
   color: whitesmoke;
 }
 
+.sr{
+  height: 8px;
+}
+
 a:link {
   color: rgb(13, 13, 35) 
 }
