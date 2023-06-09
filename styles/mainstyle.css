@@ -23,8 +23,7 @@
 
 
 .main{
-  padding-left: 14rem;
-  padding-top: 3rem;
+  padding-left: 60px;
 }
 
 a:link {
@@ -38,12 +37,13 @@ a:visited {
 
 .footer {
   position: fixed;
-  left: 13rem;
+  left: 45px;
   bottom: 0;
-  width: calc(100% - 13rem);
+  width: calc(100% - 45px);
   background-color: #c3e5ff;
   color:#091016;
   text-align: center;
+  z-index: -1;
 }
 
 .sidebar {
