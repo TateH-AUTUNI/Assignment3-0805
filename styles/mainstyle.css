@@ -105,3 +105,12 @@ a:visited {
   text-decoration: none;
   color: #333;
 }
+
+p{
+  font-size: medium; 
+  margin-right: 100px;
+  line-height: 25px;
+}
+li{
+  line-height: 25px;
+}
