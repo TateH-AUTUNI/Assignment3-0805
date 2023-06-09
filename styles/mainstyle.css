@@ -35,6 +35,7 @@ body{
   padding-left: 120px;
   padding-top: 130px;
   color: whitesmoke;
+  z-index: -1;
 }
 
 .sr{
@@ -58,7 +59,7 @@ a:link {
   background-color: #c3e5ff;
   color:#091016;
   text-align: center;
-  z-index: -1;
+  z-index: 0;
 }
 
 .sidebar {
@@ -71,6 +72,7 @@ a:link {
   transition: .3s ease-in-out;
   margin-top: 4rem;
   border-top-right-radius: 5px;
+  z-index: 1;
 }
 
 .sidebar:hover{
