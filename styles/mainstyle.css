@@ -54,11 +54,25 @@ a:visited {
   height: 100vh;
   background-color: #f2f2f2;
   transition: .3s ease-in-out;
-
   margin-top: 4rem;
 }
+
 .sidebar:hover{
   left: 0px;
+}
+
+.sidebar:hover .indicator{
+  color: #09101600;
+}
+
+.indicator{
+  font-size: 30px;
+  position: absolute;
+  top: 5px;
+  left: 165px;
+  z-index: 1;
+  color:#091016ff;
+  transition: .3s ease-in-out;
 }
 
 .sidebar-menu {
